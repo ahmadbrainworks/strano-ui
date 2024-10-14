@@ -1,11 +1,12 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-    darkMode: ["class"],
-    content: [
+  content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "../components/src/**/*.{js,jsx,ts,tsx}",
+	"./node_modules/@strano-ui/**/**/*.{js,ts,jsx,tsx,mdx}"  // include our components to tailwind
   ],
   theme: {
   	extend: {

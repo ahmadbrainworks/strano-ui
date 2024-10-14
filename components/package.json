@@ -1,6 +1,6 @@
 {
   "name": "@strano-ui/components",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Components based on Radix UI for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -15,7 +15,7 @@
   "author": "Ahmad <ahmadbrainworks@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0", 
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "react": "^18.3.1"
@@ -34,7 +34,7 @@
     "type": "git",
     "url": "https://github.com/ahmadbrainworks/strano-ui/components"
   },
-"keywords": [
+  "keywords": [
     "ui",
     "radix-ui",
     "shadcn",
