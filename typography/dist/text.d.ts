@@ -1,4 +1,3 @@
-import React from "react";
 import { ReactNode } from "react";
 export type TextProps = {
     fontSize?: number;
@@ -27,5 +26,5 @@ export type TextProps = {
     verticalAlign?: string;
     children?: ReactNode;
 };
-export declare const Text: ({ fontSize, textAlign, textTransform, textDecoration, fontWeight, color, shadow, margin, padding, fontFamily, background, WebkitBackgroundClip, WebkitTextFillColor, whiteSpace, fontStyle, lineHeight, letterSpacing, wordSpacing, textOverflow, direction, unicodeBidi, fontVariant, verticalAlign, className, children, }: TextProps) => React.JSX.Element;
+export declare const Text: ({ fontSize, textAlign, textTransform, textDecoration, fontWeight, color, shadow, margin, padding, fontFamily, background, WebkitBackgroundClip, WebkitTextFillColor, whiteSpace, fontStyle, lineHeight, letterSpacing, wordSpacing, textOverflow, direction, unicodeBidi, fontVariant, verticalAlign, className, children, }: TextProps) => any;
 //# sourceMappingURL=text.d.ts.map

@@ -1,7 +1,7 @@
 {
-  "name": "@strano-ui/typography",
+  "name": "@strano-ui/components",
   "version": "1.1.1",
-  "description": "Typography components based on Radix UI for React",
+  "description": "Components based on Radix UI for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,8 @@
   "author": "Ahmad <ahmadbrainworks@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "react": "^18.3.1"
   },
@@ -30,10 +32,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadbrainworks/strano-ui/typography"
+    "url": "https://github.com/ahmadbrainworks/strano-ui/components"
   },
-  "keywords": [
+"keywords": [
     "ui",
-    "strano"
+    "radix-ui",
+    "shadcn",
+    "shadcn-ui",
+    "react",
+    "reactjs"
   ]
 }
