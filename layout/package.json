@@ -1,15 +1,15 @@
 {
-  "name": "@strano-ui/<package name>",
-  "version": "1.1.0",
-  "description": "description goes here...",
+  "name": "@strano-ui/layout",
+  "version": "1.1.1",
+  "description": "Layouts components based on Radix UI for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",               
-    "build:watch": "tsc -w",      
-    "prepare": "npm run build",    
-    "clean": "rimraf dist",        
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "prepare": "npm run build",
+    "clean": "rimraf dist",
     "test": "echo \"No test specified\" && exit 1"
   },
   "author": "Ahmad<ahmadbrainworks@gmail.com>, Musaiyib<myusoro@gmail.com>",
@@ -18,23 +18,22 @@
     "clsx": "^2.1.1",
     "react": "^18.3.1",
     "tailwind-merge": "^2.5.4"
-
   },
   "devDependencies": {
     "rimraf": "6.0.1",
     "typescript": "^5.1.0"
   },
   "files": [
-    "dist"                              
+    "dist"
   ],
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadbrainworks/strano-ui/<tree-url-here>"
+    "url": "https://github.com/ahmadbrainworks/strano-ui/layout"
   },
-"keywords": [
+  "keywords": [
     "ui",
     "radix-ui",
     "shadcn",
